@@ -1,0 +1,29 @@
+{
+  "name": "base-api-rest",
+  "version": "0.0.1",
+  "description": "Base API Rest for Backends",
+  "main": "src/index.js",
+  "homepage": "https://github.com/ialopezg/base-api-rest#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ialopezg/base-api-rest.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "api-rest",
+    "rest-api",
+    "restful-api",
+    "swagger",
+    "swagger-api"
+  ],
+  "author": "Isidro A. Lopez G. <me@ialopezg.com>",,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ialopezg/base-api-rest/issues",
+    "email": "me@ialopezg.com"
+  }
+}
