@@ -5,7 +5,7 @@
 ### Jetbrain Software
 # IntelliJ IDEA
 .idea/
-dist/
+dist
 
 ### Package Dependency Manager
 # NodeJS
