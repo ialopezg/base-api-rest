@@ -7,10 +7,6 @@
 .idea/
 dist/
 
-### Microsoft Software
-# Visual Studio Code
-.vscode/
-
 ### Package Dependency Manager
 # NodeJS
 node_modules/
