@@ -1,7 +1,7 @@
-import { Greeter } from '../index';
+import { Greeter } from "../index";
 
-it('My Greeter', () => {
-  const tree = Greeter('John Doe').toString();
+it("My Greeter", () => {
+  const tree = Greeter("John Doe").toString();
 
   expect(tree).toMatchSnapshot();
 });

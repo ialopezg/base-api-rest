@@ -27,6 +27,7 @@
     "lint:fix": "eslint --fix --ext .ts .",
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "test:staged": "jest --findRelatedTests",
     "test:watch": "jest --watch"
   },
   "husky": {
@@ -37,6 +38,7 @@
   "lint-staged": {
     "*.ts": [
       "npm run lint:fix",
+      "npm run test:staged",
       "git add"
     ]
   },
