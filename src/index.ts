@@ -1,1 +1,1 @@
-console.log("hello" + "my" + "friend");
+export const Greeter = (name: string) => `Hello ${name}`;

@@ -4,13 +4,14 @@
 
 ### Jetbrain Software
 # IntelliJ IDEA
-.idea/
-dist
+.idea
 
 ### Package Dependency Manager
 # NodeJS
-node_modules/
+node_modules
 package-lock.json
+# Project package generated files
+dist
 
 # Yarn
 yarn.lock
@@ -18,3 +19,6 @@ yarn-error.log
 
 #### Mac OSX project files
 .DS_Store
+
+### Test project files
+coverage
